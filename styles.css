@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 
 body {
@@ -16,6 +16,9 @@ body {
     color: white;
     padding: 0, 1rem;
     width: auto;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+
 }
 
 .brand-name{
@@ -37,9 +40,58 @@ body {
 }
 
 .hero-img{
-    margin: auto;
+   margin: auto;
 }
 
 .hero-heading{
     text-align: center;
+    margin: 0.5rem, 0;
+
+}
+
+.card-one{
+    text-align: center;
+    background-color: var(--secondry-color);
+    height: 200px;
+    padding-top: 100px;
+}
+
+.card-two{
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    padding-top: 100px;
+}
+
+.card-three{
+    text-align: center;
+    background-color: var(--secondry-color);
+    height: 200px;
+    padding-top: 100px;
+}
+
+.link-primary{
+    border-radius: 0.5rem;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 0.5rem;   
+    text-decoration: none;
+   
+}
+
+.link-primary:hover{
+    background-color: var(--secondry-color);
+}
+
+
+h2{
+    font-size: xx-large;
+}
+
+.footer{
+    height: 100px;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem, 0;
+    
 }
