@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
 
 
 body {
@@ -7,11 +8,12 @@ body {
 }
 
 :root {
-    --primary-color : #2563EB;
-    --secondry-color :  #BFDBFE;
+    --primary-color: #374151;
+    --secondry-color: #6B7280;
+    --hover-color: #2563EB;
 }
 
-.navbar{
+.navbar {
     background-color: var(--primary-color);
     color: white;
     padding: 0, 1rem;
@@ -21,90 +23,152 @@ body {
 
 }
 
-.brand-name{
+
+.brand-name {
     font-weight: bold;
+    font-size: 50px;
     padding-top: 1rem;
     padding-left: 2rem;
+    font-family: 'Montez', cursive;
 
 }
-.navbar-list{
+
+.navbar-list {
     list-style: none;
     text-align: right;
     padding-right: 0.5rem;
     padding-bottom: 1rem;
+
+
 }
 
-.navbar-list-item{
+.navbar-list-item {
     display: inline;
     padding-left: 0.5rem;
 }
 
-.hero-img{
-   margin: auto;
+.hero-img {
+    width: auto;
+    margin-left: 100px;
+    margin-top: auto;
+
+
+
 }
 
-.hero-heading{
+.hero-heading {
     text-align: center;
-    margin: 0.5rem, 0;
+    margin-bottom: 50px;
+    color: var(--primary-color);
 
 }
 
-.card-one{
+.card-one {
     text-align: center;
     background-color: var(--secondry-color);
     height: 200px;
     padding-top: 100px;
+    color: white;
 }
 
-.card-two{
+.card-two {
     text-align: center;
     background-color: white;
     height: 200px;
     padding-top: 100px;
 }
 
-.card-three{
+.card-three {
     text-align: center;
     background-color: var(--secondry-color);
     height: 200px;
     padding-top: 100px;
+    color: white;
 }
 
-.link-primary{
+.link-primary {
     border-radius: 0.5rem;
     color: white;
     background-color: var(--primary-color);
-    padding: 0.5rem;   
+    padding: 0.5rem;
     text-decoration: none;
-   
+    text-align: center;
 }
 
-.link-primary:hover{
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.link-primary:hover {
+    background-color: var(--hover-color);
+}
+
+.link-secondary:hover {
+    background-color: var(--hover-color);
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.footer {
+    height: 150px;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 50px;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+
+}
+
+.footer-list {
+    list-style: none;
+
+
+}
+
+.footer-list-item {
+    display: inline;
+    font-size: 40px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.footer-list-item:hover {
     background-color: var(--secondry-color);
 }
 
-
-h2{
-    font-size: xx-large;
+.footer-icon {
+    color: #111827;
 }
 
-.footer{
-    height: 100px;
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1rem, 0;
-    
-}
-
-.footer-list{
-    list-style: none;
+h1 {
+    font-weight: bold;
     color: white;
-    
+    padding-left: 1.5rem;
 }
 
-.footer-list-item{
-    display: inline;
+.navbar-link {
     color: white;
-    font-size: 40px;
-    padding-left: 0.5rem;
+    text-decoration: none;
+}
+
+.project {
+    height: 250px;
+    width: 1000px;
+    border: 1px solid var(--secondry-color);
+    margin-left: 150px;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+
 }
